@@ -1,0 +1,20 @@
+<div class="login-container">
+  <h2>EcoNect 🌱</h2>
+
+  <form [formGroup]="loginForm" (ngSubmit)="onSubmit()">
+    <label>Email</label>
+    <input type="email" formControlName="email" />
+
+    <label>Senha</label>
+    <input type="password" formControlName="senha" />
+
+    <button type="submit">Entrar</button>
+
+    <p class="erro" *ngIf="erroLogin">Email ou senha inválidos</p>
+  </form>
+
+  <p class="cadastro-link">
+    Ainda não tem uma conta?
+    <a routerLink="/cadastro">Cadastre-se aqui</a>
+  </p>
+</div>

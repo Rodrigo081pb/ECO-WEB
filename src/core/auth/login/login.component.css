@@ -1,0 +1,74 @@
+.login-container {
+  width: 90%;
+  max-width: 400px;
+  margin: 100px auto;
+  padding: 2rem;
+  background-color: #f0fdf4;
+  border: 1px solid #a7f3d0;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 128, 0, 0.1);
+  font-family: 'Segoe UI', sans-serif;
+  color: #065f46;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 1.5rem;
+  color: #047857;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-top: 1rem;
+  font-weight: 600;
+}
+
+input {
+  padding: 0.5rem;
+  border: 1px solid #a7f3d0;
+  border-radius: 4px;
+  margin-top: 0.25rem;
+}
+
+button {
+  margin-top: 1.5rem;
+  padding: 0.75rem;
+  background-color: #10b981;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background 0.3s;
+}
+
+button:hover {
+  background-color: #059669;
+}
+
+.erro {
+  margin-top: 1rem;
+  color: #dc2626;
+  font-weight: bold;
+  text-align: center;
+}
+
+.cadastro-link {
+  margin-top: 1rem;
+  text-align: center;
+  font-size: 0.9rem;
+}
+
+.cadastro-link a {
+  color: #2e7d32; /* verde escuro da paleta */
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.cadastro-link a:hover {
+  text-decoration: underline;
+}
